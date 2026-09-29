@@ -1,0 +1,18 @@
+# Build output
+target/
+*.class
+
+# Generated SQLite databases (never commit)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local verbatim copy of the legacy data files, which contain plaintext passwords
+legacy/private-original-data/
+
+# IDE / OS clutter
+.vscode/
+.idea/
+*.iml
+.DS_Store
